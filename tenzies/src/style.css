@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0B2434;
+    padding: 30px 20px;
+}
+
+main{
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 25px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.die-holder{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr); /* sets 2 rows of height auto and usign repeat 
+    function to set 5 column of 1 fraction width*/
+    gap: 20px;
+}
+.die-styling{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
+    border-radius: 3.81277px;
+    width: 35.84px;
+    height: 35.84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.die-num{
+    /* font-size: 2rem; */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5889px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B283A;
+}
